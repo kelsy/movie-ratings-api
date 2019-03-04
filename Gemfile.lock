@@ -16,12 +16,17 @@ GEM
     concurrent-ruby (1.1.4)
     i18n (1.5.3)
       concurrent-ruby (~> 1.0)
+    metaclass (0.0.4)
     minitest (5.11.3)
+    mocha (1.8.0)
+      metaclass (~> 0.0.1)
     multi_json (1.13.1)
     pg (1.1.4)
     rack (1.6.11)
     rack-protection (1.5.5)
       rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     rake (12.3.2)
     sinatra (1.4.8)
       rack (~> 1.5)
@@ -43,7 +48,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  minitest
+  mocha
   pg
+  rack-test
   rake
   sinatra
   sinatra-activerecord

@@ -5,4 +5,8 @@ gem "pg"
 gem "rake"
 gem "sinatra-activerecord"
 gem "sinatra-json"
-gem 'sinatra-cross_origin'
+gem "sinatra-cross_origin"
+
+gem "minitest"
+gem "rack-test"
+gem "mocha"
