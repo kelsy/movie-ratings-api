@@ -1,19 +1,20 @@
 # Movie Ratings UI
 This is an example of a Vue.js UI with a Sinatra backend and is still a work in progress. Major features are currently missing. See the TO DO section for more information.
 
-The application is live at: https://movie-ratings-ui.herokuapp.com
+The application is live at: http://movie-ratings-ui.herokuapp.com (Please note HTTPS is not working at this time.)
 
 The Vue.js UI code can be viewed at https://github.com/kelsy/movie-ratings-ui
 
 ## TO DO:
-* Users - Add ability to create a user account and store reviews per user
-* Review Updates/Deletion - Add ability to update or delete reviews
-* SSL - https does not work currently on heroku deployment
+* Add Users - Add ability to create a user account and store reviews per user
+* Allow Updates/Deletion - Add ability to update or delete reviews
+* Fix SSL - HTTPS does not work currently on heroku deployment
+* Improve Validation - Model validation/errors could use some improvement
 
 ## Attributions
 Movie data from [OMDb API](http://www.omdbapi.com/).
 
-Default Film Reel image created by [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363) at [Pixabay](https://pixabay.com/).
+Default Film Reel image created by [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363) at [Pixabay](https://pixabay.com/). To see it in action, search for a movie titled "1234".
 
 ## Project setup
 Database setup:
