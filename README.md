@@ -1,8 +1,6 @@
 # Movie Ratings UI
 This is an example of a Vue.js UI with a Sinatra backend and is still a work in progress. Major features are currently missing. See the TO DO section for more information.
 
-The application is live at: http://movie-ratings-ui.herokuapp.com (Please note HTTPS is not working at this time.)
-
 The Vue.js UI code can be viewed at https://github.com/kelsy/movie-ratings-ui
 
 ## TO DO:
